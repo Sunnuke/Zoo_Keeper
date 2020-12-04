@@ -6,10 +6,13 @@ public class GorillaTest extends Gorilla {
 		Gorilla ape = new Gorilla();
 		ape.displayEnergy();
 		ape.throwSomething();
-		ape.displayEnergy();
-		ape.climb();
+		ape.throwSomething();
+		ape.throwSomething();
 		ape.displayEnergy();
 		ape.eatBananas();
+		ape.eatBananas();
+		ape.displayEnergy();
+		ape.climb();
 		ape.displayEnergy();
 	}
 
