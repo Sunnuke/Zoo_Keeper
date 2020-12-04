@@ -6,7 +6,7 @@ public class Mammal {
 	
 //	Member Methods
 	public void displayEnergy() {
-		System.out.println("The gorilla's energy level is at " + this.energyLevel + "%!");
+		System.out.println("The Mammal's energy level is at " + this.energyLevel + "%!");
 	}
 	public void energyLoss(int num) {
 		this.energyLevel -= num;
